@@ -1,6 +1,48 @@
 /* Class Selectors */
-.name{
-    color: black;
-    font-size: 200px;
+.Name{
+    color: white;
+    font-size: 20px;
     font-weight: bold;
+    margin: 0px;
+    
+}
+body{
+    margin: 0px;
+}
+/* div{
+    margin: 0px;
+    background-color: teal;
+    color: white;
+    align-items: center;
+    padding: 100px;
+    border: solid;
+    border-width: 10px; 
+    border-top: 0px;
+    border-color: rgb(249, 249, 249);
+
+} */
+.div1{
+    /* border: solid; */
+    background-color: teal;
+    width: 100%;
+    
+}
+.d1{
+    margin-left: 260px;
+    height: 200px;
+    width: 200px;
+    background-color: papayawhip;
+    border: solid;
+    border-width: 20px;
+   
+}
+.d2{
+    margin-left: 500px;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-width: 10px ;
+
+    background-color: pink;
+    
 }
