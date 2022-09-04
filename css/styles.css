@@ -1,48 +1,113 @@
 /* Class Selectors */
-.Name{
+.name{
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 3rem;
+    font-weight: w500;
     margin: 0px;
-    
+    font-family: 'Finger Paint', cursive;    
 }
+.about{
+    color: wheat;
+    font-size: 1.5em;
+    font-weight:550;
+    font-family: 'Courier New', Courier, monospace;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
 body{
     margin: 0px;
-}
-/* div{
-    margin: 0px;
-    background-color: teal;
+    text-align: center;
+    background-color:black;
     color: white;
-    align-items: center;
-    padding: 100px;
-    border: solid;
-    border-width: 10px; 
-    border-top: 0px;
-    border-color: rgb(249, 249, 249);
+} 
 
-} */
-.div1{
-    /* border: solid; */
-    background-color: teal;
-    width: 100%;
+.head{
+    /* width: 100%;
+    height:200px; */
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    padding: 2em;
+    display:inline-block;
+    /* color: white; */
+    /* position: absolute; */
+}
+.skills{
+    font-family: 'Courier Prime', monospace;
+    font-weight: 400;
+}
+
+.footer-link{
+    font-style: normal;
+    font-stretch: wider;
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-family: 'Finger Paint';
+    padding: 10px;
     
 }
-.d1{
-    margin-left: 260px;
-    height: 200px;
-    width: 200px;
-    background-color: papayawhip;
-    border: solid;
-    border-width: 20px;
-   
+.footer-link:hover{
+    color:#2bc4ad ;
+    text-decoration: none;
 }
-.d2{
-    margin-left: 500px;
-    height: 200px;
-    width: 200px;
-    border: solid;
-    border-width: 10px ;
+.React{
+    width: 10em;
+    float: left;
+    padding-right:30px ;
 
-    background-color: pink;
-    
 }
+.Flutter{
+    width: 10em;
+    float: left;
+    padding-right:30px ;
+    float: right;
+    padding-left: 30px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .contact-me{
+    padding-bottom: 50px;
+  }
+  .bottom-container{
+    background-color: rgba(130, 145, 46, 0.441);
+    padding: 10px;
+    line-height: 2;
+  }
+  .Fotter_Copy{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: white;
+  }
